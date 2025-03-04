@@ -1,5 +1,8 @@
 # Realtime VAD
 
+[![npm realtime-vad](https://img.shields.io/npm/v/realtime-vad?label=npm)](https://www.npmjs.com/package/realtime-vad) [![github realtime-vad](https://img.shields.io/github/package-json/v/ThEditor/realtime-vad?label=github)](https://github.com/ThEditor/realtime-vad/)
+
+
 Realtime VAD is a realtime voice activity detection library for Node.js environments. It utilizes the [Silero VAD](https://github.com/snakers4/silero-vad) and [onnxruntime-node](https://www.npmjs.com/package/onnxruntime-node) libraries to perform efficient speech detection.
 
 ## Quickstart
