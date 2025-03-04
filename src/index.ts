@@ -1,1 +1,1 @@
-export * from './say';
+export * from './voice-activity-detector';
