@@ -9,7 +9,9 @@
     "url": "https://github.com/ThEditor/realtime-vad"
   },
   "scripts": {
-    "build": "tsup",
+    "lint": "eslint . --fix",
+    "prettier": "prettier --write .",
+    "prettylint": "pnpm prettier && pnpm lint",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -20,8 +22,13 @@
   "author": "theditor",
   "license": "MIT",
   "devDependencies": {
+    "@eslint/js": "^9.21.0",
+    "eslint-config-prettier": "^10.0.2",
+    "jiti": "^2.4.2",
+    "prettier": "^3.5.3",
     "tsup": "^8.4.0",
-    "typescript": "^5.8.2"
+    "typescript": "^5.8.2",
+    "typescript-eslint": "^8.26.0"
   },
   "packageManager": "pnpm@9.12.3+sha512.cce0f9de9c5a7c95bef944169cc5dfe8741abfb145078c0d508b868056848a87c81e626246cb60967cbd7fd29a6c062ef73ff840d96b3c86c40ac92cf4a813ee"
 }
